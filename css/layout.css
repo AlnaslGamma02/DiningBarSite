@@ -31,6 +31,8 @@ header {
   width: 100%;
   height: 100px;
   background-color: rgba(26, 26, 26, 0.7);
+  position: absolute;
+  z-index: 1;
 }
 header .inner {
   width: 980px;
@@ -66,4 +68,14 @@ header .inner nav ul li a {
 }
 header .inner nav ul li a:hover {
   color: var(--sub-color-01);
+}
+/* メインビジュアル */
+main .mainimage {
+  width: 100%;
+  height: 570px;
+}
+main .mainimage div {
+  width: 980px;
+  margin: 0 auto;
+  text-align: right;
 }
