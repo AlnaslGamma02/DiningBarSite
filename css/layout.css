@@ -1,2 +1,26 @@
 @charset "UTF-8";
+/* リセットCSS */
 @import url("normalize.css");
+
+/* ページ全体 */
+:root {
+  /* メインカラー Black */
+  --main-color: #1a1a1a;
+  /* サブカラー１ Gray01 */
+  --sub-color-01: #f0f0f0;
+  /* サブカラー２ Gray02 */
+  --sub-color-02: #cfcfcf;
+  /* アクセントカラー Gold */
+  --accent-color: #B4A990;
+}
+body {
+  background-color: var(--main-color);
+  color: var(--accent-color);
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Go Pro", "游ゴシック", YuGothic, "MS P ゴシック", "MS PGothic", sans-serif;
+  font-size: 1em;     /* 16px */
+  line-height: 1.5em; /* 24px */
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
