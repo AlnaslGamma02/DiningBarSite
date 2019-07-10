@@ -80,51 +80,58 @@ main .mainimage div {
   text-align: right;
 }
 /* ニュースエリア */
-main .infomationarea {
+main .infomation-area {
   clear: both;
   width: 100%;
   margin-top: 200px;
 }
-main .infomationarea .inner {
+main .infomation-area .inner {
   width: 980px;
   margin: 0 auto;
 }
-main .infomationarea .inner dl {
+main .infomation-area .inner dl {
   font-size: 1.4em;
 }
-main .infomationarea .inner dl dt {
+main .infomation-area .inner dl dt {
   float: left;
   width: 7em;
   margin-bottom: 1em;
 }
-main .infomationarea .inner dl dd {
+main .infomation-area .inner dl dd {
   margin-left: 9em;
   margin-bottom: 1em;
   line-height: 1.5em;
 }
-main .infomationarea .inner dl dd a {
+main .infomation-area .inner dl dd a {
   color: var(--accent-color);
   text-decoration: none;
 }
 /* メニューエリア */
-main .menuarea {
+main .menu-area {
   clear: both;
   width: 100%;
   margin-top: 100px;
 }
-main .menuarea .inner {
+main .menu-area .inner {
   width: 980px;
   margin: 0 auto;
 }
-main .menuarea .inner .column {
+main .menu-area .inner .column {
   float: left;
   width: 50%;
 }
-main .menuarea .inner .column .column-image {
-  width: auto;
-}
-main .menuarea .inner .row:after {
+main .menu-area .inner .row:after {
   content: "";
   display: table;
   clear: both;
+}
+/* 予約エリア */
+main .reserve-area {
+  clear: both;
+  width: 100%;
+  margin-top: 100px;
+}
+main .reserve-area .inner {
+  width: 980px;
+  margin: 0 auto;
 }
