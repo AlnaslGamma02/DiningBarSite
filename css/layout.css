@@ -145,3 +145,13 @@ main .store-area .inner {
   width: 980px;
   margin: 0 auto;
 }
+/* アクセスエリア */
+main .access-area {
+  clear: both;
+  width: 100%;
+  margin-top: 100px;
+}
+main .access-area .inner {
+  width: 980px;
+  margin: 0 auto;
+}
