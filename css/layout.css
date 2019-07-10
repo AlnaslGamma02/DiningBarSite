@@ -79,3 +79,66 @@ main .mainimage div {
   margin: 0 auto;
   text-align: right;
 }
+/* 新着情報エリア */
+main .infomationarea {
+  clear: both;
+  width: 100%;
+  margin-top: 200px;
+}
+main .infomationarea .inner {
+  width: 980px;
+  margin: 0 auto;
+}
+main .infomationarea .inner dl {
+  font-size: 1.4em;
+}
+main .infomationarea .inner dl dt {
+  float: left;
+  width: 7em;
+  margin-bottom: 1em;
+}
+main .infomationarea .inner dl dd {
+  margin-left: 9em;
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+main .infomationarea .inner dl dd a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+/* 
+main .infomationarea .inner .section-header {
+  margin: 0 0 2.5em 0;
+  line-height: 1.2;
+}
+main .infomationarea .inner .section-title {
+  margin: 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+main .infomationarea .inner .section-subtitle {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+main .infomationarea .inner .table-list {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+main .infomationarea .inner .table-list td, .table-list th {
+  border-top: 1px solid var(--sub-color-01);
+  border-bottom: 1px solid var(--sub-color-01);
+  padding: 1em 0.8em;
+}
+main .infomationarea .inner .table-list-col-date {
+  width: 4em;
+}
+main .infomationarea .inner .table-list-col-data {
+  width: 12em;
+}
+main .infomationarea .inner .table-list-link a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+ */
