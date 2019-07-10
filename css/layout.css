@@ -79,7 +79,7 @@ main .mainimage div {
   margin: 0 auto;
   text-align: right;
 }
-/* 新着情報エリア */
+/* ニュースエリア */
 main .infomationarea {
   clear: both;
   width: 100%;
@@ -106,39 +106,25 @@ main .infomationarea .inner dl dd a {
   color: var(--accent-color);
   text-decoration: none;
 }
-/* 
-main .infomationarea .inner .section-header {
-  margin: 0 0 2.5em 0;
-  line-height: 1.2;
-}
-main .infomationarea .inner .section-title {
-  margin: 0;
-  font-size: 50px;
-  font-weight: bold;
-}
-main .infomationarea .inner .section-subtitle {
-  margin: 0;
-  font-size: 20px;
-  font-weight: bold;
-}
-main .infomationarea .inner .table-list {
+/* メニューエリア */
+main .menuarea {
+  clear: both;
   width: 100%;
-  border-collapse: collapse;
-  text-align: left;
+  margin-top: 100px;
 }
-main .infomationarea .inner .table-list td, .table-list th {
-  border-top: 1px solid var(--sub-color-01);
-  border-bottom: 1px solid var(--sub-color-01);
-  padding: 1em 0.8em;
+main .menuarea .inner {
+  width: 980px;
+  margin: 0 auto;
 }
-main .infomationarea .inner .table-list-col-date {
-  width: 4em;
+main .menuarea .inner .column {
+  float: left;
+  width: 50%;
 }
-main .infomationarea .inner .table-list-col-data {
-  width: 12em;
+main .menuarea .inner .column .column-image {
+  width: auto;
 }
-main .infomationarea .inner .table-list-link a {
-  color: var(--accent-color);
-  text-decoration: none;
+main .menuarea .inner .row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
- */
