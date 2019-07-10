@@ -135,3 +135,13 @@ main .reserve-area .inner {
   width: 980px;
   margin: 0 auto;
 }
+/* 店舗情報エリア */
+main .store-area {
+  clear: both;
+  width: 100%;
+  margin-top: 100px;
+}
+main .store-area .inner {
+  width: 980px;
+  margin: 0 auto;
+}
