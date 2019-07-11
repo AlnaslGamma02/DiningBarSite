@@ -72,12 +72,11 @@ header .inner nav ul li a:hover {
 /* メインビジュアル */
 main .mainimage {
   width: 100%;
-  height: 570px;
+  height: 100vh;
 }
-main .mainimage div {
-  width: 980px;
-  margin: 0 auto;
-  text-align: right;
+main .mainimage div img {
+  width: 100%;
+  height: 100vh;
 }
 /* ニュースエリア */
 main .infomation-area {
