@@ -125,6 +125,10 @@ main .menu-area .inner .row:after {
   display: table;
   clear: both;
 }
+main .menu-area .inner .row .column img {
+  width: 400px;
+  height: 240px;
+}
 /* 予約エリア */
 main .reserve-area {
   clear: both;
