@@ -1,8 +1,10 @@
 @charset "UTF-8";
 /* リセットCSS */
 @import url("normalize.css");
-/* Web Font */
+/* Web Font 1 */
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+/* Web Font 2 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700');
 
 /* ページ全体 */
 :root {
@@ -87,16 +89,30 @@ main .mainimage div img {
 }
 /* ニュースエリア */
 main .infomation-area {
-  clear: both;
   width: 100%;
-  margin-top: 200px;
+  padding: 60px 0;
 }
 main .infomation-area .inner {
   width: 980px;
   margin: 0 auto;
 }
+main .infomation-area .inner h2 {
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+main .infomation-area .inner p {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
 main .infomation-area .inner dl {
-  font-size: 1.4em;
+  margin: 30px 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 main .infomation-area .inner dl dt {
   float: left;
@@ -104,9 +120,8 @@ main .infomation-area .inner dl dt {
   margin-bottom: 1em;
 }
 main .infomation-area .inner dl dd {
-  margin-left: 9em;
+  margin-left: 8em;
   margin-bottom: 1em;
-  line-height: 1.5em;
 }
 main .infomation-area .inner dl dd a {
   color: var(--accent-color);
