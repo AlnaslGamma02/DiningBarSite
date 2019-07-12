@@ -175,34 +175,32 @@ footer {
 footer .inner {
   width: 980px;
   margin: 0 auto;
-  padding-top: 30px; 
+  padding-top: 30px;
 }
 footer .inner .ftr-navi {
-  margin-left: 200px;
-  font-size: 1.2em;
-  text-align: center;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
 }
-footer .inner .ftr-navi ul li {
-  margin-right: 28px;
+footer .inner .ftr-navi li {
+  width: calc(100%/7);
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   float: left;
-  list-style-type: none;
-  min-width: 56px;
 }
-footer .inner .ftr-navi ul li:last-child {
-  margin-right: 0;
-}
-footer .inner .ftr-navi a {
-  color: var(--accent-color);
+footer .inner .ftr-navi li a {
   text-decoration: none;
+  color: var(--accent-color);
+  font-weight: bold;
+  padding: 20px;
 }
-footer .inner .ftr-navi a:hover {
+footer .inner .ftr-navi li a:hover {
   text-decoration: underline;
 }
 footer .copyright {
-  background-color: var(--main-color);
-  height: 72px;
   color: var(--accent-color);
+  height: 72px;
   line-height: 72px;
   text-align: center;
 }
