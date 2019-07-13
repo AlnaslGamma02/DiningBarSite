@@ -96,14 +96,14 @@ main .infomation-area .inner {
   width: 980px;
   margin: 0 auto;
 }
-main .infomation-area .inner h2 {
+main .infomation-area .inner .section-title {
   line-height: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
 }
-main .infomation-area .inner p {
+main .infomation-area .inner .section-subtitle {
   line-height: 20px;
   font-size: 20px;
   font-weight: bold;
@@ -129,26 +129,62 @@ main .infomation-area .inner dl dd a {
 }
 /* メニューエリア */
 main .menu-area {
-  clear: both;
   width: 100%;
-  margin-top: 100px;
+  padding: 60px 0;
 }
 main .menu-area .inner {
   width: 980px;
   margin: 0 auto;
 }
-main .menu-area .inner .column {
-  float: left;
-  width: 50%;
+main .menu-area .inner .section-title {
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+main .menu-area .inner .section-subtitle {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+main .menu-area .inner .row {
+  margin: 50px 0;
 }
 main .menu-area .inner .row:after {
   content: "";
   display: table;
   clear: both;
 }
+main .menu-area .inner .row .column {
+  float: left;
+  width: 50%;
+}
 main .menu-area .inner .row .column img {
-  width: 400px;
-  height: 240px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+main .menu-area .inner .row .column .column-title {
+  margin: 10px 0;
+  line-height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+main .menu-area .inner .row .column .column-text {
+  margin: 0 20px;
+}
+main .menu-area .inner .row .column .details {
+  margin: 15px 20px;
+  text-align: right;
+}
+main .menu-area .inner .row .column .details a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+main .menu-area .inner .row .column .details a:hover {
+  text-decoration: underline;
 }
 /* 予約エリア */
 main .reserve-area {
