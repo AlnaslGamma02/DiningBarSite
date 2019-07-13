@@ -188,13 +188,51 @@ main .menu-area .inner .row .column .details a:hover {
 }
 /* 予約エリア */
 main .reserve-area {
-  clear: both;
   width: 100%;
-  margin-top: 100px;
+  padding: 60px 0;
 }
 main .reserve-area .inner {
   width: 980px;
   margin: 0 auto;
+}
+main .reserve-area .inner .section-title {
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+main .reserve-area .inner .section-subtitle {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+main .reserve-area .inner .reserve-text {
+  margin: 25px 0;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+main .reserve-area .inner .reserve-text .tips {
+  font-size: 20px;
+}
+main .reserve-area .inner .reserve-btn {
+  text-align: center;
+}
+main .reserve-area .inner .btn {
+  display: inline-block;
+  width: 250px;
+  padding: 0.6em 1em;
+  border: 2px solid var(--sub-color-02);
+  border-radius: 2em;
+  text-decoration: none;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
 }
 /* 店舗情報エリア */
 main .store-area {
