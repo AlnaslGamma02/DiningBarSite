@@ -236,13 +236,69 @@ main .reserve-area .inner .btn {
 }
 /* 店舗情報エリア */
 main .store-area {
-  clear: both;
   width: 100%;
-  margin-top: 100px;
+  padding: 60px 0;
 }
 main .store-area .inner {
   width: 980px;
   margin: 0 auto;
+}
+main .store-area .inner .section-title {
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+main .store-area .inner .section-subtitle {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+main .store-area .inner .table-list {
+  margin-top: 30px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+main .store-area .inner .table-list td, .table-list th{
+  border-top: 1px solid var(--sub-color-01);
+  border-bottom: 1px solid var(--sub-color-01);
+  padding: 1em 0.8em;
+}
+main .store-area .inner .table-list .table-list-col-headline {
+  width: 12em;
+}
+main .store-area .inner .sns-area {
+  margin-top: 40px;
+  text-align: center;
+}
+main .store-area .inner .sns-area p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+main .store-area .inner .sns-area a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 0.6em 1em;
+  width: 235px;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+main .store-area .inner .sns-area .fa-twitter {
+  background-color: #55ACEE;
+}
+main .store-area .inner .sns-area .fa-instagram {
+  background-color: #bc2a8d;
+}
+main .store-area .inner .sns-area .fa-facebook-f {
+  background-color: #3B5998;
 }
 /* アクセスエリア */
 main .access-area {
