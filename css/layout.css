@@ -329,13 +329,66 @@ main .access-area .inner .section-subtitle {
 }
 /* お問い合わせエリア */
 main .contact-area {
-  clear: both;
   width: 100%;
-  margin-top: 100px;
+  padding: 60px 0;
 }
 main .contact-area .inner {
   width: 980px;
   margin: 0 auto;
+}
+main .contact-area .inner .section-title {
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+main .contact-area .inner .section-subtitle {
+  line-height: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+main .contact-area .inner .form-simple {
+  width: 100%;
+  text-align: left;
+}
+main .contact-area .inner .form-simple .form-label {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: left;
+}
+main .contact-area .inner .form-simple .form-input + .form-label {
+  margin-top: 1.3rem;
+}
+main .contact-area .inner .form-simple .form-input {
+  margin-top: .4rem;
+}
+main .contact-area .inner .form-simple input, .form-simple textarea {
+  width: 96%;
+  resize: none;
+  padding: 1em;
+}
+main .contact-area .inner .form-simple input[type="submit"], .form-simple button[type="submit"] {
+  margin-top: 3em;
+}
+main .contact-area .inner .form-simple .form-input::placeholder {
+  color: #999;
+}
+main .contact-area .inner .form-simple .form-btn-holder {
+  text-align: center;
+}
+main .contact-area .inner .form-simple .form-btn-holder .btn {
+  width:250px;
+  padding: 0.6em 1em;
+  border: 2px solid var(--sub-color-02);
+  border-radius: 2em;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
 }
 /* フッター */
 footer {

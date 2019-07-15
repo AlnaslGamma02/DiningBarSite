@@ -200,16 +200,30 @@
 
   <div class="contact-area">
     <div class="inner">
-      <form action="" method="post">
-        <h2>Contact Us</h2>
-        <p>お問い合わせ</p>
-        <h4>お名前</h4>
-        <p><input type="text" name="fullname"></p>
-        <h4>メールアドレス</h4>
-        <p><input type="email" name="email"></p>
-        <h4>内容</h4>
-        <p><textarea name="contents" cols="30" rows="10"></textarea></p>
-        <input type="submit" value="送信">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">お問い合わせ</p>
+
+      <form class="form-simple" name="formContact" action="" method="post">
+
+        <p class="form-label">お名前</p>
+        <p class="form-input">
+          <input type="text" name="name" placeholder="例. 山田　太郎">
+        </p>
+        
+        <p class="form-label">メールアドレス</p>
+        <p class="form-input">
+          <input type="email" name="email" placeholder="例. abc@example.com">
+        </p>
+        
+        <p class="form-label">内容</p>
+        <p class="form-input">
+          <textarea name="contents" rows="15" placeholder="お問い合わせ内容を入力して下さい。"></textarea>
+        </p>
+
+        <div class="form-btn-holder">
+          <button type="submit" class="btn">送信する</button>
+        </div>
+
       </form>
     </div>
   </div>
