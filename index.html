@@ -30,12 +30,12 @@
     <nav>
       <ul>
         <li><a href="index.html">ホーム</a></li>
-        <li><a href="">ニュース</a></li>
-        <li><a href="">メニュー</a></li>
-        <li><a href="">予約</a></li>
-        <li><a href="">店舗情報</a></li>
-        <li><a href="">アクセス</a></li>
-        <li><a href="">お問い合わせ</a></li>
+        <li><a href="#news">ニュース</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#reserve">予約</a></li>
+        <li><a href="#store">店舗情報</a></li>
+        <li><a href="#access">アクセス</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
       </ul>
     </nav>
   </div>
@@ -48,7 +48,7 @@
     </div>
   </div>
 
-  <div class="infomation-area">
+  <div class="infomation-area" id="news">
     <div class="inner">
       <section>
         <h2 class="section-title">News</h2>
@@ -83,7 +83,7 @@
     </div>
   </div>
 
-  <div class="menu-area">
+  <div class="menu-area" id="menu">
     <div class="inner">
       <h2 class="section-title">Menu</h2>
       <p class="section-subtitle">メニュー</p>
@@ -141,7 +141,7 @@
     </div>
   </div>
 
-  <div class="reserve-area">
+  <div class="reserve-area" id="reserve">
     <div class="inner">
       <h2 class="section-title">Reserve</h2>
       <p class="section-subtitle">予約</p>
@@ -156,7 +156,7 @@
     </div>
   </div>
 
-  <div class="store-area">
+  <div class="store-area" id="store">
     <div class="inner">
       <h2 class="section-title">Store</h2>
       <p class="section-subtitle">店舗情報</p>
@@ -191,7 +191,7 @@
     </div>
   </div>
 
-  <div class="access-area">
+  <div class="access-area" id="access">
     <div class="inner">
       <h2 class="section-title">Access</h2>
       <p class="section-subtitle">アクセス</p>
@@ -201,7 +201,7 @@
     </div>
   </div>
 
-  <div class="contact-area">
+  <div class="contact-area" id="contact">
     <div class="inner">
       <h2 class="section-title">Contact Us</h2>
       <p class="section-subtitle">お問い合わせ</p>
@@ -235,16 +235,39 @@
   <div class="inner">
     <ul class="ftr-navi">
       <li><a href="index.html">ホーム</a></li>
-      <li><a href="">ニュース</a></li>
-      <li><a href="">メニュー</a></li>
-      <li><a href="">予約</a></li>
-      <li><a href="">店舗情報</a></li>
-      <li><a href="">アクセス</a></li>
-      <li><a href="">お問い合わせ</a></li>
+      <li><a href="#news">ニュース</a></li>
+      <li><a href="#menu">メニュー</a></li>
+      <li><a href="#reserve">予約</a></li>
+      <li><a href="#store">店舗情報</a></li>
+      <li><a href="#access">アクセス</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
     </ul>
   </div>
 
   <p class="copyright"><small>Copyright &copy; 2019 Dining Bar Buccaneer</small></p>
 </footer>
+<!-- Topへ戻るボタン -->
+<button onclick="topFunction()" id="back-to-top-btn" title="Go to top">
+  <i class="fas fa-angle-up"></i>
+</button>
+<!-- JavaScript -->
+<script>
+  // 20px下にスクロールした時、ボタンを表示する
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("back-to-top-btn").style.display = "block";
+    } else {
+      document.getElementById("back-to-top-btn").style.display = "none";
+    }
+  }
+  
+  // ボタンをクリックすると一番上に戻る
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </body>
 </html>

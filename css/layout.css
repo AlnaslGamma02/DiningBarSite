@@ -420,8 +420,29 @@ footer .inner .ftr-navi li a:hover {
   text-decoration: underline;
 }
 footer .copyright {
+  clear: both;
   color: var(--accent-color);
   height: 72px;
   line-height: 72px;
   text-align: center;
+}
+/* Topへ戻るボタン */
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 72px;
+  right: 150px;
+  z-index: 99;
+  width: 60px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  font-size: 2em;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#back-to-top-btn:hover {
+  background-color: var(--sub-color-01);
 }
