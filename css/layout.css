@@ -81,11 +81,10 @@ header .inner nav ul li a {
 /* メインビジュアル */
 main .mainimage {
   width: 100%;
-  height: 100vh;
+  margin: 0;
 }
-main .mainimage div img {
-  width: 100%;
-  height: 100vh;
+main .mainimage img {
+  width: 100%
 }
 /* ニュースエリア */
 main .infomation-area {
