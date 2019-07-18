@@ -28,6 +28,12 @@ h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
 }
+.viewpc {
+  display: block;
+}
+.viewmb {
+  display: none;
+}
 /* ヘッダー */
 header {
   width: 100%;
@@ -430,8 +436,8 @@ footer .copyright {
 #back-to-top-btn {
   display: none;
   position: fixed;
-  bottom: 72px;
-  right: 150px;
+  right: 50px;
+  bottom: 150px;
   z-index: 99;
   width: 60px;
   height: 60px;

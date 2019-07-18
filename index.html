@@ -14,6 +14,8 @@
   <meta name="keywords" content="Dining,Bar,Buccaneer,ダイニングバー,バッカニーア">
   <!-- CSS -->
   <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/layout_tb.css">
+  <link rel="stylesheet" href="css/layout_sp.css">
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
@@ -23,21 +25,53 @@
 <body>
 <header>
   <div class="inner">
-    <h1 class="headerlogo">
-      <a href="index.html">Dining Bar<br> Buccaneer</a>
-    </h1>
-    
-    <nav>
-      <ul>
-        <li><a href="index.html">ホーム</a></li>
-        <li><a href="#news">ニュース</a></li>
-        <li><a href="#menu">メニュー</a></li>
-        <li><a href="#reserve">予約</a></li>
-        <li><a href="#store">店舗情報</a></li>
-        <li><a href="#access">アクセス</a></li>
-        <li><a href="#contact">お問い合わせ</a></li>
-      </ul>
-    </nav>
+    <div class="viewpc">
+      <h1 class="headerlogo">
+        <a href="index.html">Dining Bar<br> Buccaneer</a>
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="#news">ニュース</a></li>
+          <li><a href="#menu">メニュー</a></li>
+          <li><a href="#reserve">予約</a></li>
+          <li><a href="#store">店舗情報</a></li>
+          <li><a href="#access">アクセス</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="viewmb">
+      <div class="topnav">
+        <a href="index.html" class="nav-logo">Dining Bar<br> Buccaneer</a>
+
+        <div class="nav-links" id="myLinks">
+          <a href="index.html">ホーム</a>
+          <a href="#news">ニュース</a>
+          <a href="#menu">メニュー</a>
+          <a href="#reserve">予約</a>
+          <a href="#store">店舗情報</a>
+          <a href="#access">アクセス</a>
+          <a href="#contact">お問い合わせ</a>
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+    </div>
   </div>
 </header>
 <main>
