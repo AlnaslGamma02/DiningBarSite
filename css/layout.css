@@ -367,12 +367,12 @@ main .contact-area .inner .form-simple .form-input + .form-label {
   margin-top: 1.3rem;
 }
 main .contact-area .inner .form-simple .form-input {
-  margin-top: .4rem;
+  margin: .4rem 1em 0 1em;
 }
 main .contact-area .inner .form-simple input, .form-simple textarea {
-  width: 96%;
+  width: 100%;
   resize: none;
-  padding: 1em;
+  padding: 1em 0;
 }
 main .contact-area .inner .form-simple input[type="submit"], .form-simple button[type="submit"] {
   margin-top: 3em;

@@ -5,11 +5,12 @@
   .viewmb {
     display: block;
   }
-  /* ヘッダー・ハンバーガーメニュー */
+  /* ヘッダー */
   header .inner {
     width: 768px;
     margin: 0 auto;
   }
+  /* ハンバーガーメニュー */
   header .inner .viewmb .topnav {
     overflow: hidden;
     position: relative;
@@ -109,6 +110,9 @@
   main .contact-area .inner .form-simple {
     padding: 0 20px;
     width: 728px;
+  }
+  main .contact-area .inner .form-simple input[type="submit"], .form-simple button[type="submit"] {
+    margin-top: 2em;
   }
   /* フッター */
   footer .inner {

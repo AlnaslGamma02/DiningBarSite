@@ -1,11 +1,170 @@
 @media (max-width: 767px) {
-  body {
-    background-color: aquamarine;
-  }
   .viewpc {
     display: none;
   }
   .viewmb {
     display: block;
+  }
+  /* ヘッダー */
+  header {
+    position: static;
+  }
+  header .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* ハンバーガーメニュー */
+  header .inner .viewmb .topnav {
+    overflow: hidden;
+    position: relative;
+  }
+  header .inner .viewmb .topnav a {
+    background-color: rgba(26, 26, 26, 0.7);
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 2em;
+    display: block;
+  }
+  header .inner .viewmb .topnav .nav-logo {
+    padding-left: 20px;
+    width: 170px;
+    height: 50px;
+    margin: 25px 0;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+  }
+  header .inner .viewmb .topnav #myLinks {
+    display: none;
+  }
+  header .inner .viewmb .topnav .nav-links a {
+    height: 75px;
+    line-height: 75px;
+    font-weight: bold;
+    text-align: center;
+  }
+  header .inner .viewmb .topnav .icon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* ニュースエリア */
+  main .infomation-area .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  main .infomation-area .inner dl {
+    padding: 0 20px;
+    font-size: 1.1em;
+    line-height: 1.1em;
+  }
+  main .infomation-area .inner dl dt {
+    float: none;
+    width: 100%;
+  }
+  main .infomation-area .inner dl dd {
+    margin: 0 0 1em 0;
+  }
+  /* メニューエリア */
+  main .menu-area .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  main .menu-area .inner .row .column {
+    float: none;
+    width: 100%;
+    margin: 1em 0;
+  }
+  main .menu-area .inner .dessert-row {
+    display: flex;
+    flex-direction: column;
+  }
+  main .menu-area .inner .dessert-row .flex-item {
+    margin-top: 0;
+  }
+  main .menu-area .inner .dessert-row .flex-item:nth-child(1) {
+    order: 2;
+  }
+  main .menu-area .inner .dessert-row .flex-item:nth-child(2) {
+    order: 1;
+  }
+  /* 予約エリア */
+  main .reserve-area .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  main .reserve-area .inner .reserve-text {
+    font-size: 1.5em;
+  }
+  /* 店舗情報エリア */
+  main .store-area .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  main .store-area .inner .sns-area a span {
+    display: none;
+  }
+  main .store-area .inner .sns-area a {
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+  }
+  main .store-area .inner .sns-area a + a {
+    margin-left: 1em;
+  }
+  /* アクセスエリア */
+  main .access-area .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  main .access-area .inner iframe {
+    height: 45vh;
+  }
+  /* お問い合わせエリア */
+  main .contact-area .inner {
+    width: 98%;
+    margin: 0 auto;
+  }
+  main .contact-area .inner .form-simple {
+    padding: 0;
+  }
+  main .contact-area .inner .form-simple input[type="submit"], .form-simple button[type="submit"] {
+    margin-top: 2em;
+  }
+  /* フッター */
+  footer .inner {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+  footer .inner .ftr-navi {
+    margin: 0;
+    padding: 0;
+  }
+  footer .inner .ftr-navi li {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    border-top: 1px solid var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+  }
+  footer .inner .ftr-navi li a {
+    min-width: 140px;
+  }
+  footer .inner .ftr-navi li a:hover {
+    text-decoration: none;
+  }
+  /* Topへ戻るボタン */
+  #back-to-top-btn {
+    right: 5px;
   }
 }
